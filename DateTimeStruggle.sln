@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeStruggle", "DateTimeStruggle\DateTimeStruggle.csproj", "{CA10DF9F-B250-4E1C-8CF5-5B336239A845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateTimeStruggle.Tests", "DateTimeStruggle.Tests\DateTimeStruggle.Tests.csproj", "{EB8CFF74-C1D2-468B-B5F4-43F99EFA68FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA10DF9F-B250-4E1C-8CF5-5B336239A845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA10DF9F-B250-4E1C-8CF5-5B336239A845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA10DF9F-B250-4E1C-8CF5-5B336239A845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA10DF9F-B250-4E1C-8CF5-5B336239A845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8CFF74-C1D2-468B-B5F4-43F99EFA68FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8CFF74-C1D2-468B-B5F4-43F99EFA68FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8CFF74-C1D2-468B-B5F4-43F99EFA68FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8CFF74-C1D2-468B-B5F4-43F99EFA68FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
