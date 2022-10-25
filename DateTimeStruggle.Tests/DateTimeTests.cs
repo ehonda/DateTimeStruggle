@@ -23,11 +23,20 @@ public class DateTimeTests
     [Test]
     public void Test2()
     {
+        // Parsed kind is local, TZ ignored
         var utcParsed = DateTime.Parse("2022-10-25T23:00:00Z");
         var utc = new DateTime(2022, 10, 25, 23, 00, 00, DateTimeKind.Utc);
 
         utc.Should().Be(utcParsed);
         utc.ToUniversalTime().Should().Be(utcParsed);
         utcParsed.ToUniversalTime().Should().Be(utc);
+    }
+
+    [Test]
+    public void Test3()
+    {
+        var utcParsed = DateTimeOffset.Parse("2022-10-25T23:00:00Z");
+        var utc = new DateTime(2022, 10, 25, 23, 00, 00, DateTimeKind.Utc);
+
     }
 }
